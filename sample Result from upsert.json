@@ -1,0 +1,40 @@
+[
+    {
+        "Success" : true,
+        "created" : false,
+        "id" : "recordidofSObject",
+        "errors": []
+    },
+    {
+        "Success" : true,
+        "created" : false,
+        "id" : "recordidofSObject",
+        "errors": []
+    },
+    {
+        "Success" : false,
+        "created" : false,
+        "id" : null,
+        "errors": [
+            {
+                "message"   : "error message - like access issue - Gives me the Cross reference <ID> here - So Extract this message out" ,
+                "fields"    : [],
+                "statusCode" : "Insufficient_Access_ON_CROSS_REFERENCE_ENTITY",
+                "extendedErrorDetails" : null
+            }
+        ]
+    },
+    {
+        "Success" : false,
+        "created" : false,
+        "id" : null,
+        "errors": [
+            {
+                "message"   : "error message - like access issue - Gives me the Cross reference <ID> here - So Extract this message out" ,
+                "fields"    : [],
+                "statusCode" : "Insufficient_Access_ON_CROSS_REFERENCE_ENTITY",
+                "extendedErrorDetails" : null
+            }
+        ]
+    }
+]

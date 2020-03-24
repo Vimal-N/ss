@@ -1,0 +1,74 @@
+
+[
+{
+    "object": "LObjectScore__c",
+    "contentType": "CSV",
+    "operation": "insert",
+    "lineEnding": "CRLF"
+},
+{
+    "id": "7502M00000aFyxvQAC",
+    "operation": "insert",
+    "object": "LObjectScore__c",
+    "createdById": "005410000020mxHAAQ",
+    "createdDate": "2020-03-21T18:55:02.000+0000",
+    "systemModstamp": "2020-03-21T18:55:02.000+0000",
+    "state": "Open",
+    "concurrencyMode": "Parallel",
+    "contentType": "CSV",
+    "apiVersion": 47.0,
+    "contentUrl": "services/data/v47.0/jobs/ingest/7502M00000aFyxvQAC/batches",
+    "lineEnding": "CRLF",
+    "columnDelimiter": "COMMA"
+},{
+    "/services/data/v47.0/jobs/ingest/7502M00000aFyxvQAC/": "PATCH"
+},{
+    "state": "UploadComplete"
+}
+,
+{
+    "id": "7502M00000aFyxvQAC",
+    "operation": "insert",
+    "object": "LObjectScore__c",
+    "createdById": "005410000020mxHAAQ",
+    "createdDate": "2020-03-21T18:55:02.000+0000",
+    "systemModstamp": "2020-03-21T18:55:02.000+0000",
+    "state": "UploadComplete",
+    "concurrencyMode": "Parallel",
+    "contentType": "CSV",
+    "apiVersion": 47.0
+},{
+    "/services/data/v47.0/jobs/ingest/7502M00000aFyxvQAC/" : "GET -> gives Status of the Job"
+},{
+    "id": "7502M00000aFyxvQAC",
+    "operation": "insert",
+    "object": "LObjectScore__c",
+    "createdById": "005410000020mxHAAQ",
+    "createdDate": "2020-03-21T18:55:02.000+0000",
+    "systemModstamp": "2020-03-21T19:02:12.000+0000",
+    "state": "JobComplete",
+    "concurrencyMode": "Parallel",
+    "contentType": "CSV",
+    "apiVersion": 47.0,
+    "jobType": "V2Ingest",
+    "lineEnding": "CRLF",
+    "columnDelimiter": "COMMA",
+    "numberRecordsProcessed": 119,
+    "numberRecordsFailed": 0,
+    "retries": 0,
+    "totalProcessingTime": 236,
+    "apiActiveProcessingTime": 192,
+    "apexProcessingTime": 0
+},{
+    "Purpose" : "to get result of the Job",
+    "url" : "/services/data/v47.0/jobs/ingest/7502M00000aFyxvQAC/successfulResults/",
+    "ResourceName" : "successfulResults"
+},{
+    "Purpose": "to Failed records information based on Job ID",
+    "url": "/services/data/v47.0/jobs/ingest/7502M00000aFyxvQAC/failedResults/",
+    "ResourceName": "failedResults"
+},{
+    "Response" : ["sf__Id",
+        "sf__Error","values__c"]
+}
+]
